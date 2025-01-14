@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "rbacAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "patientDID",
+						"type": "string"
+					}
+				],
+				"name": "retrieveData",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "patientDID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "encryptedData",
+						"type": "string"
+					}
+				],
+				"name": "storeData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"PatientDataStorage.sol": "PatientDataStorage"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"PatientDataStorage.sol": {
+			"keccak256": "0x11456fa5ca89f0871b19dc804a78a9a0b068030b820f1b77cf52f29a33bb1b00",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6ac672ca9de978d7b21bc579e0475a93ed34ac461e369c4cb0f6e229d323721a",
+				"dweb:/ipfs/QmfW8rtRX9miAQW3ETK8cQmLZ1KTm6ajPr6nugq8oEFLPR"
+			]
+		},
+		"SimpleRBAC.sol": {
+			"keccak256": "0xc7e624cfb569ff21c7b903ec04e265ce31b9905c6ce3a0677747eb60b6c21146",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2137bf16eef75f640e4d77dad0be964a817e257bbbac330c752682f83f65a362",
+				"dweb:/ipfs/QmX3ApicQT9aGFUV7nS7eA8nw2RaPmYkaqVDMKbKfqxRF4"
+			]
+		}
+	},
+	"version": 1
+}

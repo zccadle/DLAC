@@ -1,0 +1,401 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4",
+    "account{1}": "0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1725908343794,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x3954b971f3b71521328f68e6fe45a96c66174c38de0688063edaaec00cbd1416",
+        "contractName": "SimpleRBAC",
+        "bytecode": "6080604052348015600e575f80fd5b5061090b8061001c5f395ff3fe608060405234801561000f575f80fd5b5060043610610060575f3560e01c80634427673314610064578063630a195b146100945780636ff89159146100b057806389b3af29146100cc57806395a8c58d146100fc578063bbd9a5fa1461012c575b5f80fd5b61007e60048036038101906100799190610524565b610148565b60405161008b91906105c2565b60405180910390f35b6100ae60048036038101906100a991906105fe565b610199565b005b6100ca60048036038101906100c59190610778565b61024e565b005b6100e660048036038101906100e19190610778565b610310565b6040516100f391906107ec565b60405180910390f35b610116600480360381019061011191906105fe565b61037f565b60405161012391906107ec565b60405180910390f35b61014660048036038101906101419190610778565b6103f7565b005b5f805f8373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f9054906101000a900460ff169050919050565b805f808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f6101000a81548160ff021916908360068111156101f7576101f661054f565b5b02179055508173ffffffffffffffffffffffffffffffffffffffff167f4ac36fa53f167ceb85964be512e01de2a3b8bdb9862f917da079deeeff689b388260405161024291906105c2565b60405180910390a25050565b5f60015f8473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f208260405161029a9190610857565b90815260200160405180910390205f6101000a81548160ff0219169083151502179055508173ffffffffffffffffffffffffffffffffffffffff167f280695bd728e67c68c12776e30681a8ca746d6122488eab32b7bdec64eb2e7338260405161030491906108b5565b60405180910390a25050565b5f60015f8473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f208260405161035c9190610857565b90815260200160405180910390205f9054906101000a900460ff16905092915050565b5f8160068111156103935761039261054f565b5b5f808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f9054906101000a900460ff1660068111156103ee576103ed61054f565b5b14905092915050565b6001805f8473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20826040516104439190610857565b90815260200160405180910390205f6101000a81548160ff0219169083151502179055508173ffffffffffffffffffffffffffffffffffffffff167f3e7a939fe856e16ddb4b017165d29dcf6d87c6bc6115a55d7895ec3e7d4c66a1826040516104ad91906108b5565b60405180910390a25050565b5f604051905090565b5f80fd5b5f80fd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6104f3826104ca565b9050919050565b610503816104e9565b811461050d575f80fd5b50565b5f8135905061051e816104fa565b92915050565b5f60208284031215610539576105386104c2565b5b5f61054684828501610510565b91505092915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52602160045260245ffd5b6007811061058d5761058c61054f565b5b50565b5f81905061059d8261057c565b919050565b5f6105ac82610590565b9050919050565b6105bc816105a2565b82525050565b5f6020820190506105d55f8301846105b3565b92915050565b600781106105e7575f80fd5b50565b5f813590506105f8816105db565b92915050565b5f8060408385031215610614576106136104c2565b5b5f61062185828601610510565b9250506020610632858286016105ea565b9150509250929050565b5f80fd5b5f80fd5b5f601f19601f8301169050919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52604160045260245ffd5b61068a82610644565b810181811067ffffffffffffffff821117156106a9576106a8610654565b5b80604052505050565b5f6106bb6104b9565b90506106c78282610681565b919050565b5f67ffffffffffffffff8211156106e6576106e5610654565b5b6106ef82610644565b9050602081019050919050565b828183375f83830152505050565b5f61071c610717846106cc565b6106b2565b90508281526020810184848401111561073857610737610640565b5b6107438482856106fc565b509392505050565b5f82601f83011261075f5761075e61063c565b5b813561076f84826020860161070a565b91505092915050565b5f806040838503121561078e5761078d6104c2565b5b5f61079b85828601610510565b925050602083013567ffffffffffffffff8111156107bc576107bb6104c6565b5b6107c88582860161074b565b9150509250929050565b5f8115159050919050565b6107e6816107d2565b82525050565b5f6020820190506107ff5f8301846107dd565b92915050565b5f81519050919050565b5f81905092915050565b8281835e5f83830152505050565b5f61083182610805565b61083b818561080f565b935061084b818560208601610819565b80840191505092915050565b5f6108628284610827565b915081905092915050565b5f82825260208201905092915050565b5f61088782610805565b610891818561086d565b93506108a1818560208601610819565b6108aa81610644565b840191505092915050565b5f6020820190508181035f8301526108cd818461087d565b90509291505056fea264697066735822122081364bb71b594a7168fc683e93c2964d97d74969dbc7d19ce2bb64e83c6ad74164736f6c634300081a0033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    },
+    {
+      "timestamp": 1725908369248,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0xc2d7b9281fefb5617eb4b62cc7da45944c8fcaec6f41a171983236465fca64c2",
+        "contractName": "SimpleRBAC",
+        "bytecode": "6080604052348015600e575f80fd5b5061090b8061001c5f395ff3fe608060405234801561000f575f80fd5b5060043610610060575f3560e01c80634427673314610064578063630a195b146100945780636ff89159146100b057806389b3af29146100cc57806395a8c58d146100fc578063bbd9a5fa1461012c575b5f80fd5b61007e60048036038101906100799190610524565b610148565b60405161008b91906105c2565b60405180910390f35b6100ae60048036038101906100a991906105fe565b610199565b005b6100ca60048036038101906100c59190610778565b61024e565b005b6100e660048036038101906100e19190610778565b610310565b6040516100f391906107ec565b60405180910390f35b610116600480360381019061011191906105fe565b61037f565b60405161012391906107ec565b60405180910390f35b61014660048036038101906101419190610778565b6103f7565b005b5f805f8373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f9054906101000a900460ff169050919050565b805f808473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f6101000a81548160ff021916908360068111156101f7576101f661054f565b5b02179055508173ffffffffffffffffffffffffffffffffffffffff167f4ac36fa53f167ceb85964be512e01de2a3b8bdb9862f917da079deeeff689b388260405161024291906105c2565b60405180910390a25050565b5f60015f8473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f208260405161029a9190610857565b90815260200160405180910390205f6101000a81548160ff0219169083151502179055508173ffffffffffffffffffffffffffffffffffffffff167f280695bd728e67c68c12776e30681a8ca746d6122488eab32b7bdec64eb2e7338260405161030491906108b5565b60405180910390a25050565b5f60015f8473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f208260405161035c9190610857565b90815260200160405180910390205f9054906101000a900460ff16905092915050565b5f8160068111156103935761039261054f565b5b5f808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f205f9054906101000a900460ff1660068111156103ee576103ed61054f565b5b14905092915050565b6001805f8473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020015f20826040516104439190610857565b90815260200160405180910390205f6101000a81548160ff0219169083151502179055508173ffffffffffffffffffffffffffffffffffffffff167f3e7a939fe856e16ddb4b017165d29dcf6d87c6bc6115a55d7895ec3e7d4c66a1826040516104ad91906108b5565b60405180910390a25050565b5f604051905090565b5f80fd5b5f80fd5b5f73ffffffffffffffffffffffffffffffffffffffff82169050919050565b5f6104f3826104ca565b9050919050565b610503816104e9565b811461050d575f80fd5b50565b5f8135905061051e816104fa565b92915050565b5f60208284031215610539576105386104c2565b5b5f61054684828501610510565b91505092915050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52602160045260245ffd5b6007811061058d5761058c61054f565b5b50565b5f81905061059d8261057c565b919050565b5f6105ac82610590565b9050919050565b6105bc816105a2565b82525050565b5f6020820190506105d55f8301846105b3565b92915050565b600781106105e7575f80fd5b50565b5f813590506105f8816105db565b92915050565b5f8060408385031215610614576106136104c2565b5b5f61062185828601610510565b9250506020610632858286016105ea565b9150509250929050565b5f80fd5b5f80fd5b5f601f19601f8301169050919050565b7f4e487b71000000000000000000000000000000000000000000000000000000005f52604160045260245ffd5b61068a82610644565b810181811067ffffffffffffffff821117156106a9576106a8610654565b5b80604052505050565b5f6106bb6104b9565b90506106c78282610681565b919050565b5f67ffffffffffffffff8211156106e6576106e5610654565b5b6106ef82610644565b9050602081019050919050565b828183375f83830152505050565b5f61071c610717846106cc565b6106b2565b90508281526020810184848401111561073857610737610640565b5b6107438482856106fc565b509392505050565b5f82601f83011261075f5761075e61063c565b5b813561076f84826020860161070a565b91505092915050565b5f806040838503121561078e5761078d6104c2565b5b5f61079b85828601610510565b925050602083013567ffffffffffffffff8111156107bc576107bb6104c6565b5b6107c88582860161074b565b9150509250929050565b5f8115159050919050565b6107e6816107d2565b82525050565b5f6020820190506107ff5f8301846107dd565b92915050565b5f81519050919050565b5f81905092915050565b8281835e5f83830152505050565b5f61083182610805565b61083b818561080f565b935061084b818560208601610819565b80840191505092915050565b5f6108628284610827565b915081905092915050565b5f82825260208201905092915050565b5f61088782610805565b610891818561086d565b93506108a1818560208601610819565b6108aa81610644565b840191505092915050565b5f6020820190508181035f8301526108cd818461087d565b90509291505056fea264697066735822122081364bb71b594a7168fc683e93c2964d97d74969dbc7d19ce2bb64e83c6ad74164736f6c634300081a0033",
+        "linkReferences": {},
+        "from": "account{1}"
+      }
+    }
+  ],
+  "abis": {
+    "0x3954b971f3b71521328f68e6fe45a96c66174c38de0688063edaaec00cbd1416": [
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "internalType": "enum SimpleRBAC.Roles",
+            "name": "role",
+            "type": "uint8"
+          }
+        ],
+        "name": "assignRole",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "permission",
+            "type": "string"
+          }
+        ],
+        "name": "grantPermission",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "permission",
+            "type": "string"
+          }
+        ],
+        "name": "PermissionGranted",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "permission",
+            "type": "string"
+          }
+        ],
+        "name": "PermissionRevoked",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "permission",
+            "type": "string"
+          }
+        ],
+        "name": "revokePermission",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "enum SimpleRBAC.Roles",
+            "name": "role",
+            "type": "uint8"
+          }
+        ],
+        "name": "RoleAssigned",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          }
+        ],
+        "name": "getRole",
+        "outputs": [
+          {
+            "internalType": "enum SimpleRBAC.Roles",
+            "name": "",
+            "type": "uint8"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "permission",
+            "type": "string"
+          }
+        ],
+        "name": "hasPermission",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "internalType": "enum SimpleRBAC.Roles",
+            "name": "role",
+            "type": "uint8"
+          }
+        ],
+        "name": "hasRole",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "0xc2d7b9281fefb5617eb4b62cc7da45944c8fcaec6f41a171983236465fca64c2": [
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "internalType": "enum SimpleRBAC.Roles",
+            "name": "role",
+            "type": "uint8"
+          }
+        ],
+        "name": "assignRole",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "permission",
+            "type": "string"
+          }
+        ],
+        "name": "grantPermission",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "permission",
+            "type": "string"
+          }
+        ],
+        "name": "PermissionGranted",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "string",
+            "name": "permission",
+            "type": "string"
+          }
+        ],
+        "name": "PermissionRevoked",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "permission",
+            "type": "string"
+          }
+        ],
+        "name": "revokePermission",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "enum SimpleRBAC.Roles",
+            "name": "role",
+            "type": "uint8"
+          }
+        ],
+        "name": "RoleAssigned",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          }
+        ],
+        "name": "getRole",
+        "outputs": [
+          {
+            "internalType": "enum SimpleRBAC.Roles",
+            "name": "",
+            "type": "uint8"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "internalType": "string",
+            "name": "permission",
+            "type": "string"
+          }
+        ],
+        "name": "hasPermission",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "user",
+            "type": "address"
+          },
+          {
+            "internalType": "enum SimpleRBAC.Roles",
+            "name": "role",
+            "type": "uint8"
+          }
+        ],
+        "name": "hasRole",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}

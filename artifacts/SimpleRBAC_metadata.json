@@ -1,0 +1,298 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_zkpVerifierAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "role",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "permission",
+						"type": "string"
+					}
+				],
+				"name": "PermissionGranted",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "role",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "permission",
+						"type": "string"
+					}
+				],
+				"name": "PermissionRevoked",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "role",
+						"type": "string"
+					}
+				],
+				"name": "RoleAssigned",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "role",
+						"type": "string"
+					}
+				],
+				"name": "assignRole",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "role",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "permission",
+						"type": "string"
+					}
+				],
+				"name": "grantPermission",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "role",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "permission",
+						"type": "string"
+					}
+				],
+				"name": "hasPermission",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "permission",
+						"type": "string"
+					}
+				],
+				"name": "hasPermissionForCaller",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "role",
+						"type": "string"
+					}
+				],
+				"name": "hasRole",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "role",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "permission",
+						"type": "string"
+					}
+				],
+				"name": "revokePermission",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256[2]",
+						"name": "proofA",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[2][2]",
+						"name": "proofB",
+						"type": "uint256[2][2]"
+					},
+					{
+						"internalType": "uint256[2]",
+						"name": "proofC",
+						"type": "uint256[2]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "publicInputs",
+						"type": "uint256[]"
+					}
+				],
+				"name": "verifyAccess",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "zkpVerifier",
+				"outputs": [
+					{
+						"internalType": "contract ZKPVerifier",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SimpleRBAC.sol": "SimpleRBAC"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SimpleRBAC.sol": {
+			"keccak256": "0x58fc225d6c6842cd340b628a8b87b2f347127d9c417a29afe832816557f97bdb",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8bd266760a594601e342906e547daa55f1fdc8bfb335564ebab114a049c0543",
+				"dweb:/ipfs/QmXJxEL3UmUPdhyLSE92hp7JXib267jRKUDe2qdEe5QGEc"
+			]
+		},
+		"Verifier.sol": {
+			"keccak256": "0x9f22a3c4b5e3b3b7d5ab97374171d3c6ce302481a6abda1a5b3caf441f6b78d9",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://1fcd78b26d23a718948edfdcb9621554832bd22b32edee8f647bc64e26b40d3e",
+				"dweb:/ipfs/QmWzcaVcnh15FJD4BbvzfMGGvQCbcBLRFeJT9WN5T6f1Mm"
+			]
+		},
+		"ZKPVerifier.sol": {
+			"keccak256": "0xee47d7741f8c788b8d6a75b147c6d40a45c0ae4d337d1832705c93161dc110e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b795140e55a943ba9a96df299d963f81b8e2715a79d08c9e693c314323be4d2e",
+				"dweb:/ipfs/QmViRAjmKQM2L4Yo41ES6xWAibkLWyjVDvsUoomkgx71ha"
+			]
+		}
+	},
+	"version": 1
+}

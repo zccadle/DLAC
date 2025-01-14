@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "permission",
+						"type": "string"
+					}
+				],
+				"name": "hashPermission",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "role",
+						"type": "string"
+					}
+				],
+				"name": "hashRole",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"HashGenerator.sol": "HashGenerator"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"HashGenerator.sol": {
+			"keccak256": "0x25a5c5791a07128c38b3c3d2f04311e1ce9a059435c79dae91f930832c8d8252",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a8e5b5fcad558bd3414eae986b9c3e3aaf01b3fd1370edc8995210f3e7c85c8e",
+				"dweb:/ipfs/QmeB64QxtsFA776DiX75adaYXz1r1JFCnKoYF1qNuiaQ1q"
+			]
+		}
+	},
+	"version": 1
+}

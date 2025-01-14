@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DLAC System</title>
+</head>
+<body>
+    <h1>DLAC System</h1>
+
+    <h2>Submit ZKP Proof</h2>
+    <input id="roleHash" placeholder="Role Hash">
+    <input id="permissionHash" placeholder="Permission Hash">
+    <button onclick="submitZKP()">Submit Proof</button>
+
+    <script src="web3.min.js"></script>
+    <script src="snarkjs.min.js"></script>
+    <script src="app.js"></script>
+
+    <script>
+        async function submitZKP() {
+            const roleHash = document.getElementById("roleHash").value;
+            const permissionHash = document.getElementById("permissionHash").value;
+
+            const { proof, publicSignals } = await generateProof(roleHash, permissionHash);
+            await submitProof(proof, publicSignals, "YOUR_ETH_ADDRESS");
+        }
+    </script>
+</body>
+</html>
